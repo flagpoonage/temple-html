@@ -1,0 +1,13 @@
+
+{html lang="en"
+  {head
+    {title 
+      {v "Welcome to \"my\" thing"}}
+    {css ./style/main.css}
+    {js ./script/vendor.js}}
+  {body
+    {div id= "main"}
+    {< ./partial}
+    {js ./script/main.js}}}
+  {html2 lang="cn"}
+  
